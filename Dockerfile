@@ -1,4 +1,4 @@
-FROM node:10.22.1
+FROM node:10.24.1
 
 # install Firebase CLI
 RUN npm install -g firebase-tools
