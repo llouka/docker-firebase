@@ -1,4 +1,4 @@
-FROM node:10.24.1
+FROM node:12.22.1-buster
 
 # install Firebase CLI
 RUN npm install -g firebase-tools
