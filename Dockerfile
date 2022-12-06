@@ -1,5 +1,9 @@
 FROM node:16.17.0
 
+LABEL tag="ackee-gitlab" \
+      author="Ackee 🦄" \
+      description="Tailor-made image for our stack"
+
 # install Firebase CLI
 RUN npm install -g firebase-tools
 #install Typescript
